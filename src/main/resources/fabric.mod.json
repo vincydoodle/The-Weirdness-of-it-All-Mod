@@ -8,7 +8,9 @@
 		"Vincent Bradford"
 	],
 	"contact": {
-		"website": "https://github.com/vincydoodle/The-Weirdness-of-it-All-Mod"
+		"website": "https://github.com/vincydoodle/The-Weirdness-of-it-All-Mod",
+		"issues": "https://github.com/vincydoodle/The-Weirdness-of-it-All-Mod/issues",
+		"email": "vincent.l.bradford@gmail.com"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/twoia/icon.png",
