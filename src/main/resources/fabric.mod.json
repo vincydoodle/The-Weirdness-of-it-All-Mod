@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "twoia",
+	"version": "1.0.0",
+	"name": "The Weirdness of it All",
+	"description": "A very strange mod...",
+	"authors": [
+		"Vincent Bradford"
+	],
+	"contact": {
+		"website": "https://github.com/vincydoodle/The-Weirdness-of-it-All-Mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/twoia/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.twoia.TheWeirdnessOfItAll"
+		],
+		"client": [
+			"org.twoia.TheWeirdnessOfItAllClient"
+		]
+	},
+	"mixins": [
+		"twoia.mixins.json",
+		{
+			"config": "twoia.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.3",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
